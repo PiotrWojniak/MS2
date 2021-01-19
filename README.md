@@ -1,45 +1,72 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#Discover Poland 
 
-Welcome USER_NAME,
+Code Instytute - Milestone Project 2
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+This project is a one-page webside about Poland. The purpose of the website is to present interesting Polish cities where tourists can learn about the culture and customs of the country through monuments, cuisine, and the charms of nature
 
-## Gitpod Reminders
+# Webside Showcase
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#UX 
 
-`python3 -m http.server`
+## As a user:
+Where I can go for a city break?
+What an attraction I can found for a family holiday?
+Where I can go for winter break?
+As a person who does not speak Polish, I would like to easily find the hotels and tourist attractions nearby
 
-A blue button should appear to click: *Make Public*,
+## As an owner:
+I want to show users the best places for a holiday.
+I want assistance users in booking a hotel close to tourist attractions.
+Easily and pleasantly to present to the user the possibilities in the selected region.
 
-Another blue button should appear to click: *Open Browser*.
+##Project planning
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#Design
 
-A blue button should appear to click: *Make Public*,
+##Colours
++Navbars and footer background colour in sky blue
++Buttons in yellow and change to orange when hover
 
-Another blue button should appear to click: *Open Browser*.
+##Typography
++Roboto:ital - to style inside button text and navigation bar menu,
++Tangerine - to style all headings
++Bodoni Moda - to style all other contents
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+##Background image
 
-## Updates Since The Instructional Video
+#Features
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+##Existing features
+##Features left to implement
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#Technology
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+1. [HTML](https://en.wikipedia.org/wiki/HTML) - to creating structure and layout of the webpsite.
+1. [CSS](https://en.wikipedia.org/wiki/CSS) - to styling the website.
+1. [JavaScript](https://pl.wikipedia.org/wiki/JavaScript) - to interactive web applications.
+1. [Bootstrap](https://getbootstrap.com/) - for design and customize responsive mobile-first sites.
+1. [Fontawesome](https://fontawesome.com/start) - for icon style.
+1. [Google font](https://fonts.google.com/) - for font style.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+#Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+##Errors
+##Bugs and Problems
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#Deployment
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## To create a repository:
+1. Go to the GitHub web page and login
+1. Click Repository on the right side of the profile
+1. Click New green buton on rigt side
+1. Choose your repository name and click create repository button on bottom
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## To deploy a website on GitHub Pages, follow these steps:
+1. Go to the repository page
+1. Click on settings icon in the top of the page
+1. Find "GitHub Pages" section
+1. Click on the "Source" dropdown menu
+1. Select "master branch" option
+1. A green success message should appear in the "GitHub Pages" section with the link to the live preview of the project.
 
---------
-
-Happy coding!
+#Credits
