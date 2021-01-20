@@ -1,4 +1,4 @@
-#Discover Poland 
+# Discover Poland 
 
 Code Instytute - Milestone Project 2
 
@@ -6,40 +6,48 @@ This project is a one-page webside about Poland. The purpose of the website is t
 
 # Webside Showcase
 
+# User stories
+
++ As a tourist, I would like to get to know the history and culture of Poland so that I can visit it during my vacation.
++ As a tourist, I wish to get to know some of the most visited places in Poland.
++ As a tourist, I would like to learn about the attractions that can be seen during a day trip.
++ As a tourist, I would like to visit Poland in winter and take advantage of the attractions available in that season.
++ As a tourist who does not speak Polish, I would like to get information about places where the staff also speaks English through the contact form.
+
 #UX 
 
 ## As a user:
-Where I can go for a city break?
-What an attraction I can found for a family holiday?
-Where I can go for winter break?
-As a person who does not speak Polish, I would like to easily find the hotels and tourist attractions nearby
++ Where I can go for a city break?
++ What an attraction I can found for a family holiday?
++ Where I can go for winter break?
++ As a person who does not speak Polish, I would like to easily find the hotels and tourist attractions nearby
 
 ## As an owner:
-I want to show users the best places for a holiday.
-I want assistance users in booking a hotel close to tourist attractions.
-Easily and pleasantly to present to the user the possibilities in the selected region.
++ I want to show users the best places for a holiday.
++ I want assistance users in booking a hotel close to tourist attractions.
++ Easily and pleasantly to present to the user the possibilities in the selected region.
 
-##Project planning
+## Project planning
 
-#Design
+# Design
 
-##Colours
+## Colours
 +Navbars and footer background colour in sky blue
 +Buttons in yellow and change to orange when hover
 
-##Typography
+## Typography
 +Roboto:ital - to style inside button text and navigation bar menu,
 +Tangerine - to style all headings
 +Bodoni Moda - to style all other contents
 
-##Background image
+## Background image
 
-#Features
+# Features
 
-##Existing features
-##Features left to implement
+## Existing features
+## Features left to implement
 
-#Technology
+# Technology
 
 1. [HTML](https://en.wikipedia.org/wiki/HTML) - to creating structure and layout of the webpsite.
 1. [CSS](https://en.wikipedia.org/wiki/CSS) - to styling the website.
@@ -48,12 +56,12 @@ Easily and pleasantly to present to the user the possibilities in the selected r
 1. [Fontawesome](https://fontawesome.com/start) - for icon style.
 1. [Google font](https://fonts.google.com/) - for font style.
 
-#Testing
+# Testing
 
-##Errors
-##Bugs and Problems
+## Errors
+## Bugs and Problems
 
-#Deployment
+# Deployment
 
 ## To create a repository:
 1. Go to the GitHub web page and login
@@ -69,4 +77,4 @@ Easily and pleasantly to present to the user the possibilities in the selected r
 1. Select "master branch" option
 1. A green success message should appear in the "GitHub Pages" section with the link to the live preview of the project.
 
-#Credits
+# Credits
