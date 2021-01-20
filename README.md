@@ -32,13 +32,13 @@ This project is a one-page webside about Poland. The purpose of the website is t
 # Design
 
 ## Colours
-+Navbars and footer background colour in sky blue
-+Buttons in yellow and change to orange when hover
++ Navbars and footer background colour in sky blue
++ Buttons in yellow and change to orange when hover
 
 ## Typography
-+Roboto:ital - to style inside button text and navigation bar menu,
-+Tangerine - to style all headings
-+Bodoni Moda - to style all other contents
++ Roboto:ital - to style inside button text and navigation bar menu,
++ Tangerine - to style all headings
++ Bodoni Moda - to style all other contents
 
 ## Background image
 
