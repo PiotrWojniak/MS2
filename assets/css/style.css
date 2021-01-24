@@ -1,9 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=Roboto:ital@0;1&family=Tangerine&display=swap');
 
-.navbar {
+
+.navbar{
     background-color: #53b8f7;
     margin-bottom: 0;
     border: 0;
     width: 100%;
     font-family: 'BadoniModa';
 }
+
+/*@media (min-width: 1024px){
+    .container {
+        max-width: 1200px
+     }
+    }*/
+
+.container-fluid {
+    
+    height: 80vh;
+
+    background: url("../img/mountain-ranges.jpg") no-repeat center center fixed;
+
+    background-blend-mode: overlay;
+    background-size: cover;
+   
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    text-align: center;
+}
+
+.footer-container{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #53b8f7;
+}
+
