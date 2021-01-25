@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=Roboto:ital@0;1&family=Tangerine&display=swap');
 
+.body{
+    font-family: 'Roboto', sans-serif;
+}
 
 .navbar{
     background-color: #53b8f7;
@@ -9,18 +12,25 @@
     font-family: 'BadoniModa';
 }
 
-/*@media (min-width: 1024px){
+@media (min-width: 1024px){
     .container {
         max-width: 1200px
      }
-    }*/
+    }
 
-.container-fluid {
+h1 {
+    font-family: 'Tangerine';
+    font-size: 'xxx-large';
+    text-align: center;
+
+/*Home*/
+}
+.container-fluid--home {
     
     height: 80vh;
 
     background: url("../img/mountain-ranges.jpg") no-repeat center center fixed;
-
+    background-color: rgba(0, 0, 0, 0.226);
     background-blend-mode: overlay;
     background-size: cover;
    
@@ -33,22 +43,53 @@
     text-align: center;
 }
 
+
+.jumbotron{
+    padding: 2px;
+    background-color: transparent;
+    
+}
+.jumbotron-header{
+    color: rgb(253, 249, 28);
+    margin-top: 10;
+    margin-bottom: 10;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.jumbotron-footer{
+    padding: 5px;
+}
+
+.counrty-row p{
+    margin: 10 5;
+}
+/*Explore*/
+
+.region-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Contact*/
+/*Footer*/
+.container-wrapper--footer{
+    background-color: #53b8f7;
+    width: 100%;
+}
+
 .footer-container{
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #53b8f7;
-}
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
     width: 100%;
-    background-color: rgba(59, 59, 59, 0.5)
+    background-color: transparent;
 }
 
-.jumbotron{
-    padding: 0;
+.media img{
+    height: 100px;
+    width: 100px
+}
+
+.footer-box span{
+    color: #e8e8e8;:
 }
