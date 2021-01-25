@@ -40,3 +40,15 @@
     background-color: #53b8f7;
 }
 
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(59, 59, 59, 0.5)
+}
+
+.jumbotron{
+    padding: 0;
+}
