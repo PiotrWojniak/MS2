@@ -78,3 +78,7 @@ This project is a one-page webside about Poland. The purpose of the website is t
 1. A green success message should appear in the "GitHub Pages" section with the link to the live preview of the project.
 
 # Credits
+
+1. Description of the "Afrykarium", "Sky Tower", "Kolejkowo" of Wrocław in Polish comes from https://gazetawroclawska.pl and has been translated into English.
+1. European Solidarity Centre image "ESC" Photograph by Mike Peel (www.mikepeel.net).
+1. Images used from googlemaps and wikipedia
