@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=Roboto:ital@0;1&family=Tangerine&display=swap');
 
+#map {
+    height: 360px;
+    width: 360px;
+}
+
 .body{
     font-family: 'Roboto', sans-serif;
 }
@@ -12,7 +17,7 @@
     font-family: 'BadoniModa';
 }
 
-@media (min-width: 1024px){
+@media (min-width: 540px){
     .container {
         max-width: 1200px
      }
@@ -20,14 +25,14 @@
 
 h1 {
     font-family: 'Tangerine';
-    font-size: 'xxx-large';
+    font-size: 4rem;
     text-align: center;
 
 /*Home*/
 }
 .container-fluid--home {
     
-    height: 80vh;
+    height: 90vh;
 
     background: url("../img/mountain-ranges.jpg") no-repeat center center fixed;
     background-color: rgba(0, 0, 0, 0.226);
@@ -52,7 +57,7 @@ h1 {
 .jumbotron-header{
     color: rgb(253, 249, 28);
     margin-top: 10;
-    margin-bottom: 10;
+    margin-bottom: 10rem;
     text-transform: uppercase;
     font-weight: bolder;
 }
@@ -91,5 +96,5 @@ h1 {
 }
 
 .footer-box span{
-    color: #e8e8e8;:
+    color: #e8e8e8;
 }
