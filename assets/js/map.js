@@ -1,15 +1,31 @@
+function addText() {
+    $(".name-heading").html("<h3>Explore Poland</h3");
+    $("#information").text(`Poland officially the Republic of Poland is a country located in Central Europe. It is divided into 16 
+    administrative provinces, covering an area of 312,696 square kilometers (120,733 sq mi), and has a largely temperate seasonal 
+    climate. With a population of nearly 38.5 million people, Poland is the fifth most populous member state of the European Union. 
+    Poland's capital and largest metropolis are Warsaw. Other major cities include Kraków, Łódź, Wrocław, Poznań, Gdańsk, and Szczecin.
+     The history of human activity on Polish soil spans thousands of years. Throughout the late antiquity period, it became 
+     extensively diverse, with various cultures and tribes settling on the vast Central European Plain. However, it was the 
+     Western Polans who dominated the region and gave Poland its name. The establishment of Polish statehood can be traced to 
+     966 when the pagan ruler of a realm coextensive with the territory of present-day Poland embraced Christianity and converted 
+     to Catholicism.[16] The Kingdom of Poland was founded in 1025, and in 1569 it cemented its longstanding political association 
+     with Lithuania by signing the Union of Lublin. This union formed the Polish–Lithuanian Commonwealth, one of the largest 
+     (over 1,000,000 square kilometers – 400,000 square miles) and most populous nations of 16th and 17th century Europe, with a 
+     uniquely liberal political system that adopted Europe's first modern constitution, the Constitution of 3 May 1791`);
+}
+addText();
+
 const poland = {
     "lat": 51.7323731083243,
     "lng": 20.461452079236786 
 }
 
-function initMap(){
-    const mapProp = {/*new google.maps.Map(document.getElementById("map"), {*/
-        zoom: 5,
-        panControl: false,
-        zoomControl: false,
+function initMap() {
+    const mapProp = {
+        zoom: 7,
+        streetViewControl: false,
+        fullscreenControl: false,
         center: poland,
-    /*});*/
     };
     const map = new google.maps.Map(document.getElementById("map"), mapProp);
 
@@ -23,7 +39,7 @@ function initMap(){
     },
         {"lat": 50.05385272092519, "lng": 19.933822028155607, "name": "Dragon cave", "information": ` is a limestone cave in the Wawel Hill 
         in Kraków. Owing to its location in the heart of the former Polish capital and its connection to the legendary Wawel Dragon, 
-        it is the best known cave in Poland. `, "image": `<img src='assets/img/Krakow/Smocza_jama' alt='Dragon Cave'>`
+        it is the best known cave in Poland. `, "image": `<img src='assets/img/Krakow/Smocza_jama.jpg' alt='Dragon Cave'>`
     },
         {"lat": 50.05132020442885, "lng": 19.947365592203894, "name": "Kazimierz", "information": `Kazimierz is a fashionable 
         artistic part of Krakow, located on the site of the former Jewish district, now home to independent galleries, unusual shops, 
@@ -34,7 +50,7 @@ function initMap(){
         neighborhood. Jews appeared in Kazimierz in the mid-fourteenth century and until the beginning of the nineteenth century they 
         lived in the "Jewish city". It was an autonomous enclave - Jews ruled over it independently - they had only the king over 
         them, on whose behalf the governor of Kraków exercised power.`, 
-        "image":`<img src='assets/imgiKrakow/kazimierz.jpg' atl='Jewish quarter'>`, 
+        "image":`<img src='assets/img/Krakow/kazimierz.jpg' atl='Jewish quarter'>`, 
     },
         {"lat": 50.01415281923071, "lng": 20.0521943339838, "name": "Wieliczka", "information": `Underground tunnels & mine with chapels,
          chambers & saline lakes, plus themed tours for all ages.`, "image":`<img src='assets/img/Krakow/wieliczka.jpg' alt='Wieliczka'>`,
@@ -50,14 +66,14 @@ function initMap(){
     },
         
         {"lat": 50.028979578545034, "lng": 19.419664035121464, "name": "Energylandia", "information": `Large amusement park, featuring 
-        roller coasters, water rides & storybook characters.`, "image": `<img src='assets/img/krakow/energylandia.jpg' alt='Energylandia'>`,
+        roller coasters, water rides & storybook characters.`, "image": `<img src='assets/img/krakow/energylandia.jpg' alt='energylandia'>`,
     },
         {"lat": 50.06161393919834, "lng": 19.937333537749744, "name": "Cloth Hall", "information": ` The Kraków Cloth Hall, in Lesser Poland, dates to 
         the Renaissance and is one of the city's most recognizable icons. It is the central feature of the main market square in the 
         Kraków Old Town (the historic center of Kraków), which since 1978 has been listed as a UNESCO World Heritage.  `, 
-        "image": `<img src='assets/img/Krakow/Sukiennce.jpg' alt='Cloth Hall'>`
+        "image": `<img src='assets/img/Krakow/sukiennce.jpg' alt='Cloth Hall'>`
     },
-];
+    ];
     const tricity = [
         {"lat": 54.35602959144473, "lng": 18.659979182277745,"name": "The Museum of World War II", "information": `The Museum of the 
         Second World War is a state cultural institution established in 2008 and a museum in Gdańsk, Poland which is devoted to the 
@@ -106,7 +122,6 @@ function initMap(){
     },
     
     ];
-
     const wroclaw = [
         {"lat": 51.12031925681726, "lng": 17.02833967476246, "name": "MovieGate", "information": `THE ONLY UNDERGROUND TRIP CONNECTING HISTORY, 
         MODERN CINEMA, AND THE MAGIC OF ILLUSION
@@ -122,7 +137,7 @@ function initMap(){
         half of the Second Polish Republic by the Soviet Union, main parts of Poland's art collections were transferred from 
         the cities incorporated into the USSR like Lviv.`, "image": `<img src='assets/img/Wroclaw/National_Museum.jpg.jpg' alt='Nationl Museum'>` 
     },
-        {"lat": 51.10979880131194, "lng": 17.03273270452827, "name": "Rynek", "information":`Rynek of Wrocław has 3.8ha of surface 
+        {"lat": 51.10979880131194, "lng": 17.03273270452827, "name": "Squer", "information":`Rynek of Wrocław has 3.8ha of surface 
         and belongs to the biggest market places in Poland (the bigger ones are in Kraków and Olecko). However, the Late Gothic 
         Town Hall with its 66m tower is the biggest building of this kind in Poland.  In its underground functions Piwnica Świdnicka, 
         one of the oldest restaurants in Europe.`, "image": `<img src='assets/img/Wroclaw/Rynek.jpg' alt='Rynek of Wroclaw'>`
@@ -131,7 +146,7 @@ function initMap(){
         been the flagship tourist attraction of Wrocław since 1985. In a specially constructed rotunda building, you can see a painting 
         that is 15 meters high and 114 meters long. It shows the battle of Racławice led by Tadeusz Kościuszko. Thanks to special 
         measures - lighting, winding approach, creating an artificial area in front of the picture, the viewer have the impression 
-        that he is moving to the battlefield`, "image": `<img src='assets/img/Wroclaw/Panorama_Raclawicka.jpg' alt='Panorama Raclawicka'>` 
+        that he is moving to the battlefield`, "image": `<img src='assets/img/Wroclaw/Panorama_Raclawicka2.jpg' alt='Panorama Raclawicka'>` 
     },
         {"lat": 51.104389928064585, "lng": 17.07519974870186, "name": "Afrykarium", "information": `it is unique at the expense of 
         the world. Animals from the Black Continent are presented in this aquarium. Here you can see the coral reef of the Red Sea, 
@@ -150,8 +165,7 @@ function initMap(){
         Lower Silesian tourist attractions, such as the meteorological observatory on Sniezka.`, 
         "image": `<img src='assets/img/Wroclaw/kolejkowo.jpg' alt='Kolejkowo'>`
     }
-    ];
-    
+    ];  
     const warsaw = [
         {"lat": 52.24975621855516, "lng": 21.012233510634502,"name": "Old town", "information": `Warsaw Old Town (colloquially as Starówka) is the oldest part of Warsaw, the capital 
         city of Poland. It is bounded by the Wybrzeże Gdańskie (Gdańsk Boulevards), along with the bank of the Vistula river, 
@@ -218,69 +232,57 @@ function initMap(){
 
     ];
 
-    for(let i=0; i< krakow.length; i++){
-        const marker = new google.maps.Marker({
+    var InfoObj = [];
+}
+
+$("#krakowInfo").click(function(){
+    clearMarker();
+    map.setZoom(10);
+    map.setCenter({
+        lat: 50.064819627963615, lng: 19.94479058948315
+    });
+
+    for(let i=0; i < krakow.lenght; i++) {
+        marker = new google.maps.Marker({
             position: new google.maps.LatLng(krakow[i].lat, krakow[i].lng),
-            map: map,
-            title: krakow[i].name,
-            animation: google.maps.Animation.drop,
+            animation: google.maps.Animation.DROP,
+            map: map
         });
     }
+    marker.push(marker);
+})
+    /*let citys = krakow.concat(tricity, wroclaw, warsaw);
 
-    var InfoObj = [];
-
-    for (i = 0; i < krakow.length; i++) {
-        let contentString = `<h3>` + krakow[i].name + `</h3>` +
-        '<p>' + krakow[i].information + '</p>' + krakow[i].image;
-        /*'<a href="https://developers.google.com/maps/documentation/javescript/overview">>` + `Click me!' +  '</a>';*/
-    
-    const marker = new google.maps.Marker({
-        position: new google.maps.LatLng(krakow[i].lat, krakow[i].lng),
-        map: map,
-        title: krakow[i].name,
-        animation: google.maps.Animation.drop,
-    });
-    const infowindow = new google.maps.InfoWindow({
-        content: contentString,
-        maxWidth: 500,
-    });
-    marker.addListener("click", function(){
-        closeOtherInfo();
-        infowindow.open(map, marker);
-        InfoObj[0] = infoWindow;
-    });
-}
-function closeOtherInfo(){
-    if(InfoObj.length > 0){
-        InfoObj[0].set("marker", null);
-        InfoObj[0].close();
-        InfoObj[0].length = 0;
+    for(let i=0; i < citys.length; i++) {
+        const marker = new google.maps.Marker({
+            position: new google.maps.LatLng(citys[i].lat, citys[i].lng),
+            map: map,
+        })
     }
 }
-}
-
-/* koordynaty wroclawia 51.113144196321784, 17.038398544851354 / The Official Travel Guide - https://visitwroclaw.eu/en opis-
-Wroclaw is the historical capital of Silesia and Lower Silesia. Today, it is the capital of the Lower Silesian Voivodeship. 
+let citys = krakow.concat(tricity, wroclaw, warsaw);
+/* let locWroclaw = ["lat": 51.113144196321784, "lng": 17.038398544851354,"name": "Wroclaw", "Information":
+`Wroclaw is the historical capital of Silesia and Lower Silesia. Today, it is the capital of the Lower Silesian Voivodeship. 
 The history of the city dates back over a thousand years; at various times, it has been part of the Kingdom of Poland, the Kingdom 
 of Bohemia, the Kingdom of Hungary, the Habsburg Monarchy of Austria, the Kingdom of Prussia and Germany. Wrocław became part of 
 Poland again in 1945 as part of the so-called Recovered Territories, the result of extensive border changes and expulsions after 
-the Second World War.*/
+the Second World War. "The Official Travel Guide - https://visitwroclaw.eu/en" `],
 
-/*koordynaty warszawy 52.22982051316745, 21.0121004101167 / https://warsawtour.pl/en/main-page/  opis- Warsaw is the capital and 
+let locWarsaw = [ "lat": 52.22982051316745, "lng": 21.0121004101167, "name": "Warsaw", "information": `Warsaw is the capital and 
 largest city of Poland. The metropolis stands on the Vistula River in east-central Poland and its population is officially estimated 
 at 1.8 million residents within a greater metropolitan area of 3.1 million residents, which makes Warsaw the 7th most-populous capital 
 city in the European Union. The city limits cover 517.24 square kilometers (199.71 sq mi), while the metropolitan area covers 6,100.43 
 square kilometers (2,355.39 sq mi).[4] Warsaw is an alpha- global city,[5] a major international tourist destination, and a 
-significant cultural, political, and economic hub. Its historical Old Town was designated a UNESCO World Heritage Site. */
+significant cultural, political, and economic hub. Its historical Old Town was designated a UNESCO World Heritage Site. https://warsawtour.pl/en/main-page/`],
 
-/*koordynaty krakowa 50.064819627963615, 19.94479058948315 / https://www.introducingkrakow.com/ opis- Cracow is the second-largest 
+let locKrakow = ["lat": 50.064819627963615, "lng": 19.94479058948315, "name": "Krakow", "Information": `Cracow is the second-largest 
 and one of the oldest cities in Poland. Situated on the Vistula River in Lesser Poland Province, the city dates back to the 7th 
 century. Kraków was the official capital of Poland until 1596 and has traditionally been one of the leading centers of Polish 
 academic, economic, cultural, and artistic life. Cited as one of Europe's most beautiful cities, its Old Town has declared the 
-first UNESCO world Heritage Site in the world. */
+first UNESCO world Heritage Site in the world. https://www.introducingkrakow.com/`],
 
-/*koordynaty trojmiasta gdansk - 54.39340175144875, 18.540524388814273, sopot - 54.441475365402376, 18.56012762537952, gdynia - 54.51875312604973, 18.531799401608172 
+let locTrojmiasto = gdansk - 54.39340175144875, 18.540524388814273, sopot - 54.441475365402376, 18.56012762537952, gdynia - 54.51875312604973, 18.531799401608172 
 opis: Tricity, or Tri-City (Polish: Trójmiasto is a metropolitan area in northern Poland (in Pomeranian Voivodeship), 
 consisting of three cities: Gdańsk, Gdynia and Sopot, as well as minor towns in their vicinity. They are situated adjacent to one 
 another, in a row on the coast of Gdańsk Bay, Baltic Sea, in Eastern or Gdansk Pomerania (often referred to as Pomerelia in English). 
-The Tricity metropolitan area has a population of over 1 million people. / */
+The Tricity metropolitan area has a population of over 1 million people. */ 
