@@ -71,20 +71,34 @@
     </section>
     <!--Explore-->
     <section id="explore">
-        <div class="container-fluid">
+        
+        <div class="col-12 container-fluid--explore">
             <div class="col-12 mt-4 heading-container">
                 <h1>Atraction by region</h1>
             </div>
-            <div class="container mt-4 region-container">
-                <button id="tricity" type="button" class="btn btn-default btn-md">Tricity</button>
-                <button id="krakow" type="button" class="btn btn-default btn-md">Krakow</button>
-                <button id="wroclaw" type="button" class="btn btn-default btn-md">Wroclaw</button>
-                <button id="warsaw" type="button" class="btn btn-default btn-md">Warsaw</button>
+            <div class="region-container">
+                <button id="tricityInfo" type="button" class="btn btn-default btn-lg">Tricity</button>
+                <button id="krakowInfo" type="button" class="btn btn-default btn-lg">Krakow</button>
+                <button id="wroclawInfo" type="button" class="btn btn-default btn-lg">Wroclaw</button>
+                <button id="warsawInfo" type="button" class="btn btn-default btn-lg">Warsaw</button>
             </div>
-            <div class="col-xs-12 col-lg-6">
-                <div id="map"></div>
+            <div id="map-info" class="row">
+                <div class="col-12 col-lg-8">
+                    <div id="map"></div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row info-container">
+                        <div id="atraction" class="col-12">
+                            <div class="name-heading"></div>
+                            <div id="information" class="col-12">
+                                <p class="text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        
     </section>
     <!--Contact-->
     <section id="contact">
@@ -114,16 +128,17 @@
             </div>     
         </div>
     </footer>
- 
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     <script src="assets/js/map.js"></script>
     <!--<script>
-        var APIKey = "AIzaSyCpAt7mch5jmpSQgvyDsXk0PTlih46AnAM";
+        var APIKey = "AIzaSyCpAt7mch5jmpSQgvyDsXk0PTlih46AnAM"; map ID: 43db36f24b05334b
     </script-->
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZVPYVXPe_ve1kFLZrY4RyPh_6NLsCfeQ&callback=initMap"></script>
+    <!--script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZVPYVXPe_ve1kFLZrY4RyPh_6NLsCfeQ&callback=initMap"></script-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZVPYVXPe_ve1kFLZrY4RyPh_6NLsCfeQ&map_ids=43db36f24b05334b&callback=initMap"></script>
     <script src="assets/js/map.js"></script>
 
 </body>
