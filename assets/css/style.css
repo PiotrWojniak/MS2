@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@0;1&family=Roboto:ital@0;1&family=Tangerine&display=swap');
 
 #map {
-    height: 360px;
-    width: 360px;
+    height: 80vh;
+    width: auto;
+    
 }
 
 .body{
@@ -47,7 +48,12 @@ h1 {
     position: relative;
     text-align: center;
 }
-
+.container-fluid--explore {
+    max-width: 100%;
+    position: relative;
+    justify-content: center;
+    
+}
 
 .jumbotron{
     padding: 2px;
@@ -65,16 +71,20 @@ h1 {
     padding: 5px;
 }
 
-.counrty-row p{
+/*.counrty-row p{
     margin: 10 5;
-}
+}*/
 /*Explore*/
 
 .region-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 24px;
+
 }
+
+
 /*Contact*/
 /*Footer*/
 .container-wrapper--footer{
