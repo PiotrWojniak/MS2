@@ -71,9 +71,13 @@ h1 {
     padding: 5px;
 }
 
-/*.counrty-row p{
-    margin: 10 5;
-}*/
+.country {
+    color: #e2e3e3;
+    font-size: 22px;
+    font-family: 'BadoniModa';
+    background-color: #66666596;
+    margin-bottom: 10px;
+}
 /*Explore*/
 
 .region-container{
@@ -81,9 +85,31 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 24px;
-
 }
 
+.region-button-hover {
+    background-color: #ed9875;    
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.region-button {
+    font-weight: bold;
+    background-color: #ffc756;    
+    padding: 2px;
+    border-radius: 6px;
+    height: 50px;
+    width: 100px;
+    margin: 2px;
+    
+}
+.name-heading {
+    text-align: center;
+}
+
+#information{
+    font-family: 'Bodoni Moda', serif;
+}
 
 /*Contact*/
 /*Footer*/
