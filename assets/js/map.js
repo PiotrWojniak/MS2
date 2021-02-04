@@ -26,7 +26,7 @@ function initMap() {
         possible knowledge about Jewish culture. Krakow's Kazimierz is a special place, shaped by the centuries-old Christian-Jewish 
         neighborhood. Jews appeared in Kazimierz in the mid-fourteenth century and until the beginning of the nineteenth century they 
         lived in the "Jewish city". It was an autonomous enclave - Jews ruled over it independently - they had only the king over 
-        them, on whose behalf the governor of Kraków exercised power. <img src='assets/img/Krakow/kazimierz.jpg' atl='Jewish quarter'>`,
+        them, on whose behalf the governor of Kraków exercised power. <img src='assets/img/Krakow/kazimierz1.jpg' atl='Jewish quarter'>`,
         },
         {"lat": 50.01415281923071, "lng": 20.0521943339838, "name": "Wieliczka", "information": `Wieliczka - Underground tunnels & mine with chapels,
         chambers & saline lakes, plus themed tours for all ages. <img src='assets/img/Krakow/wieliczka.jpg' alt='Wieliczka'>`,
@@ -207,10 +207,7 @@ function initMap() {
     ];
 
     const map = new google.maps.Map(document.getElementById("map"), mapProp);
-
     var infowindow = new google.maps.InfoWindow();
-    
-    var infoObj = [];
     var cities = krakow.concat(threecity, wroclaw, warsaw);
 
     for (i = 0; i < cities.length; i++) {    
@@ -232,6 +229,11 @@ function initMap() {
                 map.setCenter(marker.getPosition());
             }
         })(marker));
+
+        google.maps.event.addListener(infowindow, 'closeclick', function(){
+            map.panTo(this.getPosition());
+            map.setZoom(7);   
+        });
     })
 }
 }
