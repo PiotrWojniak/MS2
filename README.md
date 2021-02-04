@@ -59,6 +59,9 @@ This project is a one-page webside about Poland. The purpose of the website is t
 # Testing
 
 ## Errors
+
+1. Info window not clousing when new marker is click.
++ 
 ## Bugs and Problems
 
 # Deployment

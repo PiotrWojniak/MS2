@@ -18,6 +18,11 @@
     font-family: 'BadoniModa';
 }
 
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(232, 29, 29);
+}
+
 @media (min-width: 540px){
     .container {
         max-width: 1200px
@@ -26,8 +31,9 @@
 
 h1 {
     font-family: 'Tangerine';
-    font-size: 4rem;
+    font-size: 34px;
     text-align: center;
+    color: rgb(197, 33, 33);
 
 /*Home*/
 }
@@ -61,22 +67,24 @@ h1 {
     
 }
 .jumbotron-header{
-    color: rgb(253, 249, 28);
-    margin-top: 10;
-    margin-bottom: 10rem;
-    text-transform: uppercase;
-    font-weight: bolder;
+    
+    margin-top: 10px;
+    margin-bottom:10px;
+    line-height: inherit;
+    
 }
 .jumbotron-footer{
     padding: 5px;
 }
 
 .country {
-    color: #e2e3e3;
-    font-size: 22px;
+    font-size: 15px;
     font-family: 'BadoniModa';
-    background-color: #66666596;
-    margin-bottom: 10px;
+    background-color: #ffffff96;
+    margin: 3rem;
+    padding: 1rem;
+    
+    
 }
 /*Explore*/
 
@@ -92,10 +100,13 @@ h1 {
     padding: 2px;
     border-radius: 4px;
 }
-
+.btn-primary:hover {
+    color: rgb(232, 29, 29);
+    background-color: #0069d9;
+    border-color: rgb(252, 251, 251);
+}
 .region-button {
-    font-weight: bold;
-    background-color: #ffc756;    
+    font-weight: bold;   
     padding: 2px;
     border-radius: 6px;
     height: 50px;
@@ -111,6 +122,29 @@ h1 {
     font-family: 'Bodoni Moda', serif;
 }
 
+/* style map info window */
+
+.gm-style-iw {
+    background-color: rgb(117, 158, 221);
+    border: 2px solid rgba(233, 72, 72, 0.6);
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(178, 178, 178, 0.6);
+    color: rgb(5, 5, 5) !important;
+    font-family: gothambook;
+    text-align: center;
+    top: 15px;
+    width: 450px !important;
+  }
+
+.gm-style .gm-style-iw {
+    font-size: 17px;
+  }
+
+.gm-style img {
+    margin-top: 10px;
+    max-width: 100%;
+    max-height: 100%;
+  }
 /*Contact*/
 /*Footer*/
 .container-wrapper--footer{
