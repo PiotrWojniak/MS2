@@ -12,14 +12,13 @@ function initMap() {
         with traditional Polish restaurants, hotels and antique and souvenir shops. Wawel Royal Castle is a sprawling complex with a museum and 
         cathedral, while bustling 13th-century Rynek square is home to Gothic St. Mary’s Basilica, Sukiennice, Jagiellonian University, a 
         Renaissance-era market hall. Bars include low-key pubs, craft beer bars, vodka spots and jazz dens.
-        <br>
         <img src='assets/img/Krakow/Stare_miasto.jpg' alt='Stare miasto'>`
         },
         {"lat": 50.05385272092519, "lng": 19.933822028155607, "name": "Dragon cave", "information": `Dragon cave - is a limestone cave in the Wawel Hill 
         in Kraków. Owing to its location in the heart of the former Polish capital and its connection to the legendary Wawel Dragon, 
         it is the best known cave in Poland. <img src='assets/img/Krakow/Smocza_jama.jpg' alt='Dragon Cave'>`
         },
-        {"lat": 50.05132020442885, "lng": 19.947365592203894, "name": "Kazimierz", "information": `Kazimierz - is a fashionable 
+        {"lat": 50.05132020442885, "lng": 19.947365592203894, "name": "Kazimierz", "information": `Kazmierz The Former Jewish District - is a fashionable 
         artistic part of Krakow, located on the site of the former Jewish district, now home to independent galleries, unusual shops, 
         vintage boutiques, and bars - from elegant cocktail venues to shabby-chic venues. On Szeroka Street, it is worth seeing 
         numerous synagogues, including the Old Synagogue from the 16th century, and in the nearby Remuh Cemetery - a wall made of 
@@ -42,12 +41,12 @@ function initMap() {
         },
 
         {"lat": 50.028979578545034, "lng": 19.419664035121464, "name": "Energylandia", "information": `Energylandia - large amusement park, featuring 
-        roller coasters, water rides & storybook characters. <img src='assets/img/krakow/energylandia.jpg' alt='energylandia'>`,
+        roller coasters, water rides & storybook characters. <img src='assets/img/Krakow/energylandia.jpg' alt='energylandia'>`,
         },
         {"lat": 50.06161393919834, "lng": 19.937333537749744, "name": "Cloth Hall", "information": ` The Kraków Cloth Hall - in Lesser Poland, dates to 
         the Renaissance and is one of the city's most recognizable icons. It is the central feature of the main market square in the 
         Kraków Old Town (the historic center of Kraków), which since 1978 has been listed as a UNESCO World Heritage. 
-        <img src='assets/img/Krakow/sukiennce.jpg' alt='Cloth Hall'>`
+        <img src='assets/img/Krakow/sukiennice.jpg' alt='Cloth Hall'>`
         },
     ];
     const threecity = [
@@ -67,7 +66,8 @@ function initMap() {
         Gdansk, Poland, located on the Baltic Sea coast mouth of the Dead Vistula (one of the Vistula delta estuaries), in the Gdansk 
         harbor channel. From 1926 to 1939 it was the location of a Polish Military Transit Depot (WST), sanctioned within the 
         territory of the Free City of Danzig It is famous for the Battle of Westerplatte, which was the first clash between Polish 
-        and German forces during the invasion of Poland and thus the beginning and the first battle of World War II. <img src='assets/img/Threecity/Westerplatte.jpg' alt:'Westerplatte'>`
+        and German forces during the invasion of Poland and thus the beginning and the first battle of World War II. 
+        <img src='assets/img/Threecity/Westerplatte.jpg' alt:'Westerplatte'>`
         },
         {"lat": 54.4103015981786, "lng": 18.634885341428088, "name": "Brzezno beach", "information": `Brzezno - is one of the quarters of the city of 
         Gdańsk, Poland with a sandy beach and 130 m long pier. <img src='assets/img/Threecity/Brzezno.jpg' alt:'Brzezno'>`
@@ -106,7 +106,7 @@ function initMap() {
         It holds one of the largest collections of contemporary art in the country. The holdings of Wrocław Museum are closely 
         connected with the history of border shifts in Central Europe following World War II. After the annexation of Eastern 
         half of the Second Polish Republic by the Soviet Union, main parts of Poland's art collections were transferred from 
-        the cities incorporated into the USSR like Lviv. <img src='assets/img/Wroclaw/National_Museum.jpg.jpg' alt='Nationl Museum'>`
+        the cities incorporated into the USSR like Lviv. <img src='assets/img/Wroclaw/National_Museum.jpg' alt='Nationl Museum'>`
         },
         {"lat": 51.10979880131194, "lng": 17.03273270452827, "name": "Squer", "information": `Squer (Rynek) of Wroclaw has 3.8ha of surface 
         and belongs to the biggest market places in Poland (the bigger ones are in Kraków and Olecko). However, the Late Gothic 
