@@ -60,8 +60,8 @@ This project is a one-page webside about Poland. The purpose of the website is t
 
 ## Errors
 
-1. Info window not clousing when new marker is click.
-+ 
+1. Info window not closing when new marker is click.
++ fix issue in commit
 ## Bugs and Problems
 
 # Deployment
