@@ -1,13 +1,12 @@
-let map;
 
 function initMap() {
     const mapProp = {
-        zoom: 7,
+        zoom: 6,
         streetViewControl: false,
         fullscreenControl: false,
         center: new google.maps.LatLng(52.04759039054113, 19.406079870492373),
     };
-
+// data store for display markers and info on map
     const krakow = [
         {"lat": 50.05918412440376, "lng": 19.93597496938881, "name": "Old Town", "information": ` Old Town - Krakow’s vibrant old town, is packed 
         with traditional Polish restaurants, hotels and antique and souvenir shops. Wawel Royal Castle is a sprawling complex with a museum and 
