@@ -50,49 +50,49 @@ function initMap() {
         <img src='assets/img/Krakow/sukiennce.jpg' alt='Cloth Hall'>`
         },
     ];
-    const tricity = [
+    const threecity = [
         {"lat": 54.35602959144473, "lng": 18.659979182277745, "name": "The Museum of World War II", "information": `The Museum of the 
         Second World War - is a state cultural institution established in 2008 and a museum in Gdańsk, Poland which is devoted to the 
-        Second World War. <img src='assets/img/Tricity/WWII.jpg' alt:'Second War museum'>`
+        Second World War. <img src='assets/img/Threecity/WWII.jpg' alt:'Second War museum'>`
         },
         {"lat": 54.36131298020431, "lng": 18.6497292703395, "name": "European Solidarity Centre", "information": `The European Solidarity 
         Centre - is a museum and library in Gdańsk, Poland, devoted to the history of Solidarity, the Polish trade union and civil 
-        resistance movement, and other opposition movements of Communist Eastern Europe <img src='assets/img/Tricity/ESC.jpg' alt='ESC'>`
+        resistance movement, and other opposition movements of Communist Eastern Europe <img src='assets/img/Threecity/ESC.jpg' alt='ESC'>`
         },
         {"lat": 54.39591305189457, "lng": 18.67913106120668, "name": "Wisloujscie Fortress", "information": `Wisloujscie Fortress - is a historic fortress located in Gdansk 
         by the Dead Vistula river, by an old estuary of the river Vistula, flowing into the Bay of Gdansk. The fortress is located close 
-        to the Wisloujscie borough, Westerplatte, and the Northern Port. <img src='assets/img/Tricity/Twierdza.jpg' alt:'Wisloujscie Fortress'>`
+        to the Wisloujscie borough, Westerplatte, and the Northern Port. <img src='assets/img/Threecity/Twierdza.jpg' alt:'Wisloujscie Fortress'>`
         },
         {"lat": 54.40672991256688, "lng": 18.666943103108498, "name": "Westerplatte", "information": `Westerplatte - is a peninsula in 
         Gdansk, Poland, located on the Baltic Sea coast mouth of the Dead Vistula (one of the Vistula delta estuaries), in the Gdansk 
         harbor channel. From 1926 to 1939 it was the location of a Polish Military Transit Depot (WST), sanctioned within the 
         territory of the Free City of Danzig It is famous for the Battle of Westerplatte, which was the first clash between Polish 
-        and German forces during the invasion of Poland and thus the beginning and the first battle of World War II. <img src='assets/img/Tricity/Westerplatte.jpg' alt:'Westerplatte'>`
+        and German forces during the invasion of Poland and thus the beginning and the first battle of World War II. <img src='assets/img/Threecity/Westerplatte.jpg' alt:'Westerplatte'>`
         },
         {"lat": 54.4103015981786, "lng": 18.634885341428088, "name": "Brzezno beach", "information": `Brzezno - is one of the quarters of the city of 
-        Gdańsk, Poland with a sandy beach and 130 m long pier. <img src='assets/img/Tricity/Brzezno.jpg' alt:'Brzezno'>`
+        Gdańsk, Poland with a sandy beach and 130 m long pier. <img src='assets/img/Threecity/Brzezno.jpg' alt:'Brzezno'>`
         },
         {"lat": 54.44412975305636, "lng": 18.56673577436759, "name": "Crooked house", "information": `Crooked House - is an unusually 
         shaped building in Sopot, Poland. It was designed by Szotyńscy & Zaleski, who were inspired by the fairytale illustrations 
         and drawings of Jan Marcin Szancer and Per Dahlberg. The Crooked House took first place on the list of the 50 weirdest 
-        buildings in the world, published by Portal Village of Joy. <img src='assets/img/Tricity/domek.jpg' alt:'Crooked House'>`
+        buildings in the world, published by Portal Village of Joy. <img src='assets/img/Threecity/domek.jpg' alt:'Crooked House'>`
         },
         {"lat": 54.44704939873655, "lng": 18.57347348369745, "name": "Sopot Pier", "information": `The Sopot Pier - is the pier in the city of Sopot, 
         Poland, built as a pleasure pier and as a mooring point for cruise boats. It first opened in 1827, and at 511.5 meters 
         (1,678 ft), the pier is the longest wooden pier in Europe. It stretches into the sea from the middle of Sopot beach 
         which is a popular venue for recreation and health walks (the concentration of iodine at the tip of the pier is twice as 
-        high as on land) or public entertainment events, and it also serves as a mooring point for cruise boats and water taxis. <img src='assets/img/Tricity/molo.jpg' alt:'Sopot Pier'>`
+        high as on land) or public entertainment events, and it also serves as a mooring point for cruise boats and water taxis. <img src='assets/img/Threecity/molo.jpg' alt:'Sopot Pier'>`
         },
         {"lat": 54.45235592652107, "lng": 18.565998381327077, "name": "Sopot Beach", "information": `The Sopot beach - is an integral part of the pier with a 4.3 km long sandy beach of extraordinary width 
         - as much as 110 meters! It is located very close to the city center, and there is one official descent to it. You can swim 
         safely - lifeguards watch over bathing enthusiasts. The descent to the water is gentle. The beach has great tourist facilities 
-        - toilets, bars, attractions for children, and sun lounger rental. <img src='assets/img/Tricity/beach.jpg' alt:'Sopot Beach'>`
+        - toilets, bars, attractions for children, and sun lounger rental. <img src='assets/img/Threecity/beach.jpg' alt:'Sopot Beach'>`
         },
         {"lat": 54.48167034117536, "lng": 18.565192466511217, "name": "Orlowo", "information": `Orlowo - a seaside, southern district 
         of Gdynia with a marina for fishermen (beach strip). It includes the Orłowo Pier, as well as a cliff characteristic of the 
         district's landscape, with the name of the shopping center located in Orłowo. There is also a railway station in Orłowo and a 
         stop for the Szybka Kolej Miejska in the Tri-City Gdynia Orłowo. On the border of Orłów and the Redłowska Plate, you can see 
-        many cannons, bunkers, and tranches from the early 1950s. <img src='assets/img/Tricity/orlowo.jpg' alt:'Orlowo'>`
+        many cannons, bunkers, and tranches from the early 1950s. <img src='assets/img/Threecity/orlowo.jpg' alt:'Orlowo'>`
         },
     ];
     const wroclaw = [
@@ -211,7 +211,7 @@ function initMap() {
     var infowindow = new google.maps.InfoWindow();
     
     var infoObj = [];
-    var cities = krakow.concat(tricity, wroclaw, warsaw);
+    var cities = krakow.concat(threecity, wroclaw, warsaw);
 
     for (i = 0; i < cities.length; i++) {    
         $.each(cities, function(i, item){
@@ -228,7 +228,7 @@ function initMap() {
             return function() {
                 infowindow.setContent(item.information);
                 infowindow.open(map, marker);  
-                map.setZoom(11);
+                map.setZoom(13);
                 map.setCenter(marker.getPosition());
             }
         })(marker));
