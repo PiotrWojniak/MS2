@@ -23,7 +23,7 @@ This website is aimed at users who intend to visit Poland but do not know which 
 
 1. My wireframe was create in - Balsamiq Wireframe.
 
-My project planning can be download [here.](https://github.com/PiotrWojniak/MS2/blob/96d00aa6a8333c4c0b87cc91e621972b38b01ccb/assets/img/Readme/Piotr%20Wojniak%20MS2.pdf) and is display below.
+My project planning can be download [here.](https://github.com/PiotrWojniak/MS2/blob/96d00aa6a8333c4c0b87cc91e621972b38b01ccb/assets/Readme/Piotr%20Wojniak%20MS2.pdf) and is display below.
 
 + Home
     <img src="/assets/Readme/Home.png">
@@ -68,7 +68,7 @@ My project planning can be download [here.](https://github.com/PiotrWojniak/MS2/
 + On the footer there are icons which once pressed link directly to the social media sites. It also features a copy right notice.  
 
 ## Features left to implement
-
+1. Information window obove marker will be display beside map
 # Technology
 
 1. [HTML](https://en.wikipedia.org/wiki/HTML) - to creating structure and layout of the webpsite.
@@ -89,14 +89,21 @@ My project planning can be download [here.](https://github.com/PiotrWojniak/MS2/
 + No issue found
 
 ## [JSHint](https://jshint.com/) version 2.12.0
-1. 
+
 ### To validate java script.
 1. Value of clear marker has already been determined.
 + Removing repeted code.
+#### Warnings.
 1. 240, 283, 319, 355	Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (google, krakow, map, markers, infowindow)
++ Need to be fixed in the future
+
 1. Undefined variables - google, $, i
 + All three variable is nesserly to run function
 
+### Lighthouse
+
++ Mobile test resuls twill be dowloaded [here](https://github.com/PiotrWojniak/MS2/blob/master/assets/Readme/mobLigh.pdf)
++ Mobile test resuls twill be dowloaded [here](https://github.com/PiotrWojniak/MS2/blob/master/assets/Readme/descLigh.pdf}
 ## Errors and fix
 
 1. Info window not closing when new marker is click.
