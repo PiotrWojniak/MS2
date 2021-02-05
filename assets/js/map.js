@@ -19,7 +19,7 @@ var krakow = [
     possible knowledge about Jewish culture. Krakow's Kazimierz is a special place, shaped by the centuries-old Christian-Jewish 
     neighborhood. Jews appeared in Kazimierz in the mid-fourteenth century and until the beginning of the nineteenth century they 
     lived in the "Jewish city". It was an autonomous enclave - Jews ruled over it independently - they had only the king over 
-    them, on whose behalf the governor of Kraków exercised power. <img src='assets/img/Krakow/kazimierz1.jpg' atl='Jewish quarter'>`,
+    them, on whose behalf the governor of Kraków exercised power. <img src='assets/img/Krakow/kazimierz1.jpeg' atl='Jewish quarter'>`,
     },
     {"lat": 49.9837487544485, "lng": 20.053834389990545, "name": "Wieliczka", "information": `Wieliczka - Underground tunnels & mine with chapels,
     chambers & saline lakes, plus themed tours for all ages. <img src='assets/img/Krakow/wieliczka.jpg' alt='Wieliczka'>`,
@@ -110,7 +110,7 @@ var wroclaw = [
     been the flagship tourist attraction of Wrocław since 1985. In a specially constructed rotunda building, you can see a painting 
     that is 15 meters high and 114 meters long. It shows the battle of Racławice led by Tadeusz Kościuszko. Thanks to special 
     measures - lighting, winding approach, creating an artificial area in front of the picture, the viewer have the impression 
-    that he is moving to the battlefield. <img src='assets/img/Wroclaw/Panorama_Raclawicka2.jpg' alt='Panorama Raclawicka'>`
+    that he is moving to the battlefield. <img src='assets/img/Wroclaw/Panorama_Raclawicka2.jpeg' alt='Panorama Raclawicka'>`
     },
     {"lat": 51.104389928064585, "lng": 17.07519974870186, "name": "Afrykarium", "information": `Afrykarium - it is unique at the expense of 
     the world. Animals from the Black Continent are presented in this aquarium. Here you can see the coral reef of the Red Sea, 

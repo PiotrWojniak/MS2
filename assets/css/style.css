@@ -46,7 +46,7 @@ h1, p {
     
     height: 90vh;
 
-    background: url("../img/mountain-ranges1.jpg") no-repeat center center fixed;
+    background: url("../img/mountain-ranges1.jpeg") no-repeat center center fixed;
     background-color: rgba(0, 0, 0, 0.226);
     background-blend-mode: overlay;
     background-size: cover;
@@ -95,7 +95,7 @@ h1, p {
 
 /* to style containers*/
 .container-fluid--explore{
-    background: url("../img/flag.jpg") no-repeat ;
+    background: url("../img/flag.jpeg") no-repeat ;
     background-size: cover;
     background-blend-mode: overlay;
 }
@@ -165,7 +165,7 @@ h1, p {
 /*--------- Contact ---------*/
 
 #contact{
-    background: url("../img/tatry1_50.jpg") no-repeat ;
+    background: url("../img/tatry1_50.jpeg") no-repeat ;
     background-size: cover;
     background-blend-mode: overlay;
 }
