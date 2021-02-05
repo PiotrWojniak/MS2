@@ -198,7 +198,7 @@ var warsaw = [
     housed in the surviving pillars of the Saxon Palace. <img src='assets/img/Warsaw/Tomb.jpg' alt:'Tomb of the Unknown Soldier'>`
     },
 ];
-var map;
+
 // ---- Init map ---- //
 function initMap() {
     const mapProp = {
