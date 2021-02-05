@@ -240,14 +240,14 @@ function initMap() {
             return function() {
                 infowindow.setContent(item.information);
                 infowindow.open(map, marker);  
-                map.setZoom(13);
+                map.setZoom(12);
                 map.setCenter(marker.getPosition());
             };
         })(marker, i));
 
         google.maps.event.addListener(infowindow, 'closeclick', function(){
             map.panTo(this.getPosition());
-            map.setZoom(10);   
+            map.setZoom(11);   
         });
     });
 }
@@ -283,14 +283,14 @@ function clearMarkers() {
             return function() {
                 infowindow.setContent(item.information);
                 infowindow.open(map, marker);  
-                map.setZoom(13);
+                map.setZoom(12);
                 map.setCenter(marker.getPosition());
             };
         })(marker, i));
 
         google.maps.event.addListener(infowindow, 'closeclick', function(){
             map.panTo(this.getPosition());
-            map.setZoom(10);   
+            map.setZoom(11);   
         });
     });
 }
@@ -325,14 +325,14 @@ function clearMarkers() {
             return function() {
                 infowindow.setContent(item.information);
                 infowindow.open(map, marker);  
-                map.setZoom(13);
+                map.setZoom(12);
                 map.setCenter(marker.getPosition());
             };
         })(marker, i));
 
         google.maps.event.addListener(infowindow, 'closeclick', function(){
             map.panTo(this.getPosition());
-            map.setZoom(10);   
+            map.setZoom(11);   
         });
     });
 }
@@ -367,14 +367,14 @@ function clearMarkers() {
             return function() {
                 infowindow.setContent(item.information);
                 infowindow.open(map, marker);  
-                map.setZoom(13);
+                map.setZoom(12);
                 map.setCenter(marker.getPosition());
             };
         })(marker, i));
 
         google.maps.event.addListener(infowindow, 'closeclick', function(){
             map.panTo(this.getPosition());
-            map.setZoom(10);   
+            map.setZoom(11);   
         });
     });
 }
