@@ -4,9 +4,9 @@ Code Instytute - Milestone Project 2
 
 This project is a one-page webside about Poland. The purpose of the website is to present interesting Polish cities where tourists can learn about the culture and customs of the country through monuments, cuisine, and the charms of nature
 
-# Webside Showcase
+# Website Showcase
 
-<img src="assetsreadme/ResponTest/home.jpg">
+<img src="assets/readme/Im-resp-home.jpg">
 
 # User stories
 
@@ -18,18 +18,21 @@ This project is a one-page webside about Poland. The purpose of the website is t
 # UX 
 
 This website is aimed at users who intend to visit Poland but do not know which part to go to. The page presents four of the most visited cities in Poland, rich in tourist attractions for both children and adults. The places presented on this site are cultural and historical heritage. Some of those attractions present difficult polish history and others where you can forget about everyday life and just enjoy having fun.
+
 ## Project planning
+
+1. My wireframe was create in - Balsamiq Wireframe.
 
 My project planning can be download [here.](https://github.com/PiotrWojniak/MS2/blob/96d00aa6a8333c4c0b87cc91e621972b38b01ccb/assets/img/Readme/Piotr%20Wojniak%20MS2.pdf) and is display below.
 
 + Home
-    <img src="/assets/img/Readme/Home.png">
+    <img src="/assets/Readme/Home.png">
 
 + Explore
-    <img scr="/assets/img/Readme/Explore.png">
+    <img scr="/assets/Readme/Explore.png">
 
 + Contact
-    <img src="/assets/img/Readme/contact.png">
+    <img src="/assets/Readme/contact.png">
 # Design
 
 ## Colours
@@ -37,9 +40,10 @@ My project planning can be download [here.](https://github.com/PiotrWojniak/MS2/
 + Buttons in blue and highlighting text to red and white border when hover. - The colors used refer to the national colors of Poland.
 
 ## Typography
-+ Roboto:ital - to style Info window in google map
++ Roboto:ital - to set as defoult style
 + Tangerine - to style all headings and paragraph - is very similar to the font using in old historical books.
-+ Bodoni Moda - to style inside button text and navigation bar menu,
++ Bodoni Moda - to style inside button text and navigation bar menu.
++ Gothambook - to style displayed info about atraction on marker.
 
 ## Background image
 + Home - the photo shows the landscape of Polish mountains.
@@ -76,12 +80,13 @@ My project planning can be download [here.](https://github.com/PiotrWojniak/MS2/
 1. [Visual studio](https://visualstudio.microsoft.com) - console for writing code.
 1. [EmailJS](https://www.emailjs.com/) - for email service
 # Testing
-## [W3C Markup Validation Service](https://validator.w3.org/)  
-### To validate html and css
+## [W3C Markup Validation Service](https://validator.w3.org/) To validate html and css
+
 1. Html
 + typo error in line: 92, column 17 and 131, column 35
 
-2. CSS - no issue found
+2. CSS 
++ No issue found
 
 ## [JSHint](https://jshint.com/) version 2.12.0
 1. 
@@ -92,10 +97,15 @@ My project planning can be download [here.](https://github.com/PiotrWojniak/MS2/
 1. Undefined variables - google, $, i
 + All three variable is nesserly to run function
 
-## Errors
+## Errors and fix
 
 1. Info window not closing when new marker is click.
-+ Store info window in variable fixed issue in commit - f8facd6
++ Move info window from the local function to the global and store in variable fixed issue in commit - f8facd6
+
+1. Not display confirm window after submiting form.
++ Add alert window in function to display message when form is submited.
+
+1. Info window on map not display content correctly on mobile and tablet.
 ## Bugs and Problems
 
 1. Image did not display in window info on map.
@@ -121,5 +131,6 @@ My project planning can be download [here.](https://github.com/PiotrWojniak/MS2/
 # Credits
 
 1. Description of the "Afrykarium", "Sky Tower", "Kolejkowo" of Wrocław in Polish comes from https://gazetawroclawska.pl and has been translated into English.
-1. European Solidarity Centre image "ESC" Photograph by Mike Peel (www.mikepeel.net).
-1. Images used from googlemaps and wikipedia
+1. Image use for European Solidarity Centre was create by Photograph Mike Peel (www.mikepeel.net).
+1. Images used for this project was downloaded from Google free source.
+1. This pice of code //-- $.each(krakow, function(i, item) --// was used to display info window above markers and was copied from stackoverflow.com.
