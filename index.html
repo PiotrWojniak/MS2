@@ -87,14 +87,14 @@
             <h1>Contact</h1>
         </div>
         <div class="center-form col-12 col-lg-8 offset-lg-2">
-            <form onsubmit="return sendMail(this);">
+            <form id=contactForm onsubmit="return sendMail(this);">
                 <label for="name">Name:</label>
                 <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                 <label for="emailaddress">Email Address:</label>
                 <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
                 <label for="inforequest">Let as your request below:</label>
-                <textarea rows="5" name="inforequest" class="form-control" id="inforequest" placeholder="Request" required></textarea>
-                <button type="submit" class="btn btn-secondary center-block">Send Request</button>
+                <textarea rows="5" name="inforequest" class="form-control" id="inforequest" placeholder="Inforequest" required></textarea>
+                <button id="submit-btn"type="submit" class="btn btn-secondary center-block">Send Request</button>
             </form>
         </div>
 
@@ -114,13 +114,6 @@
                                         <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="icon-instagram"><i class="fab fa-instagram fa-lg"></i></a>
                                     </div>    
                                 <span>&copy; Piotr Wojniak 2021</span>
-                                <p>
-                                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
-                                        <img style="border:0;width:88px;height:31px"
-                                            src="http://jigsaw.w3.org/css-validator/images/vcss"
-                                            alt="Poprawny CSS!" />
-                                    </a>
-                                </p>
                             </div>   
                         </div>    
                     </div>    
