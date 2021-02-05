@@ -40,7 +40,7 @@ h1, p {
     text-align: center;
     color: rgb(197, 33, 33);
 
-/*Home*/
+/*----------- Home -----------*/
 }
 .container-fluid--home {
     
@@ -91,7 +91,9 @@ h1, p {
     
     
 }
-/*Explore*/
+/*--------- Explore---------*/
+
+/* to style containers*/
 .container-fluid--explore{
     background: url("../img/flag.jpg") no-repeat ;
     background-size: cover;
@@ -128,6 +130,8 @@ h1, p {
     text-align: center;
 }
 
+/* style marker info window */
+
 #information{
     font-family: 'Bodoni Moda', serif;
 }
@@ -135,8 +139,6 @@ h1, p {
 #map-info {
     max-width: 100%;
 }
-
-/* style map info window */
 
 .gm-style-iw {
     background-color: rgb(117, 158, 221);
@@ -160,13 +162,15 @@ h1, p {
     max-width: 100%;
     max-height: 100%;
   }
-/*Contact*/
+/*--------- Contact ---------*/
+
 #contact{
     background: url("../img/tatry1_50.jpg") no-repeat ;
     background-size: cover;
     background-blend-mode: overlay;
 }
-/*Footer*/
+
+/*--------- Footer ----------*/
 .container-wrapper--footer{
     background-color: #53b8f7;
     width: 100%;
