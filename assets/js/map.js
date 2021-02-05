@@ -211,7 +211,6 @@ function initMap() {
 
     var map = new google.maps.Map(document.getElementById("map"), mapProp);
     var infowindow = new google.maps.InfoWindow();
-    var marker, i;
     var markers = [];
 
 // ---- Add buton to the marker  ----//
@@ -227,15 +226,15 @@ function initMap() {
 // ---- Add marker to map ---- //        
 
         for (i = 0; i < krakow.length; i++) {    
-    // -- Credited for display info window on map at stackoverflow.com repeted  4 times-- //           
+    // -- This code was used from stackoverflow.com for display info window -- //           
             $.each(krakow, function(i, item){
     // ----------- End credit ----------//            
-            var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(krakow[i].lat, krakow[i].lng),
-                map: map,               
-                title: krakow[i].name,
-                animation: google.maps.Animation.DROP,
-            });
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(krakow[i].lat, krakow[i].lng),
+                    map: map,               
+                    title: krakow[i].name,
+                    animation: google.maps.Animation.DROP,
+                });
 
         markers.push(marker);
 
@@ -273,12 +272,12 @@ function clearMarkers() {
    
         for (i = 0; i < threecity.length; i++) {    
             $.each(threecity, function(i, item){
-            var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(threecity[i].lat, threecity[i].lng),
-            map: map,            
-            title: threecity[i].name,
-            animation: google.maps.Animation.DROP,
-        });
+                var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(threecity[i].lat, threecity[i].lng),
+                map: map,            
+                title: threecity[i].name,
+                animation: google.maps.Animation.DROP,
+            });
 
         markers.push(marker);
 
@@ -307,16 +306,14 @@ function clearMarkers() {
             lng: 17.03867580150526
         });    
    
-        for (i = 0; i < wroclaw.length; i++) { 
-    // -- Credited for display info window on map at stackoverflow.com repeted  4 times-- //         
+        for (i = 0; i < wroclaw.length; i++) {         
             $.each(wroclaw, function(i, item){
-    // ----------- End credit ----------//
-            var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(wroclaw[i].lat, wroclaw[i].lng),
-            map: map,            
-            title: wroclaw[i].name,
-            animation: google.maps.Animation.DROP,
-        });
+                var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(wroclaw[i].lat, wroclaw[i].lng),
+                map: map,            
+                title: wroclaw[i].name,
+                animation: google.maps.Animation.DROP,
+            });
 
         markers.push(marker);
 
@@ -346,13 +343,13 @@ function clearMarkers() {
         });    
    
         for (i = 0; i < warsaw.length; i++) {  
-            $.each(warsaw, function(i, item){
-            var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(warsaw[i].lat, warsaw[i].lng),
-            map: map,           
-            title: warsaw[i].name,
-            animation: google.maps.Animation.DROP,
-        });
+           $.each(warsaw, function(i, item){
+                var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(warsaw[i].lat, warsaw[i].lng),
+                map: map,           
+                title: warsaw[i].name,
+                animation: google.maps.Animation.DROP,
+            });
 
         markers.push(marker);
 
