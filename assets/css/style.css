@@ -43,7 +43,8 @@ h1, p {
     font-family: 'Tangerine';
     font-size: 34px;
     text-align: center;
-    color: rgb(197, 33, 33);
+    color: rgb(232 55 55);
+    font-weight: bold;
 
 /*----------- Home -----------*/
 }
