@@ -1,4 +1,5 @@
 // ---- Data store for display markers and info on map ---- //
+/*jshint esversion: 6 */
 var krakow = [
     {"lat": 50.05918412440376, "lng": 19.93597496938881, "name": "Old Town", "information": ` Old Town - Krakow’s vibrant old town, is packed 
     with traditional Polish restaurants, hotels and antique and souvenir shops. Wawel Royal Castle is a sprawling complex with a museum and 
@@ -208,7 +209,7 @@ function initMap() {
     };
 
 
-    const map = new google.maps.Map(document.getElementById("map"), mapProp);
+    var map = new google.maps.Map(document.getElementById("map"), mapProp);
     var infowindow = new google.maps.InfoWindow();
     var marker, i;
     var markers = [];
@@ -226,7 +227,9 @@ function initMap() {
 // ---- Add marker to map ---- //        
 
         for (i = 0; i < krakow.length; i++) {    
+    // -- Credited for display info window on map at stackoverflow.com repeted  4 times-- //           
             $.each(krakow, function(i, item){
+    // ----------- End credit ----------//            
             var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(krakow[i].lat, krakow[i].lng),
                 map: map,               
@@ -295,12 +298,6 @@ function clearMarkers() {
     });
 }
 });
-function clearMarkers() {
-    for (let i = 0; i < markers.length; i++) {
-        markers[i].setMap(null);
-    }
-    markers = [];
-}
 
     $("#wroclawInfo").click(function() {
         clearMarkers();
@@ -310,8 +307,10 @@ function clearMarkers() {
             lng: 17.03867580150526
         });    
    
-        for (i = 0; i < wroclaw.length; i++) {    
+        for (i = 0; i < wroclaw.length; i++) { 
+    // -- Credited for display info window on map at stackoverflow.com repeted  4 times-- //         
             $.each(wroclaw, function(i, item){
+    // ----------- End credit ----------//
             var marker = new google.maps.Marker({
             position: new google.maps.LatLng(wroclaw[i].lat, wroclaw[i].lng),
             map: map,            
@@ -337,12 +336,6 @@ function clearMarkers() {
     });
 }
 });
-function clearMarkers() {
-    for (let i = 0; i < markers.length; i++) {
-        markers[i].setMap(null);
-    }
-    markers = [];
-}
 
     $("#warsawInfo").click(function() {
         clearMarkers();
@@ -352,7 +345,7 @@ function clearMarkers() {
             lng: 21.012339179355664
         });    
    
-        for (i = 0; i < warsaw.length; i++) {    
+        for (i = 0; i < warsaw.length; i++) {  
             $.each(warsaw, function(i, item){
             var marker = new google.maps.Marker({
             position: new google.maps.LatLng(warsaw[i].lat, warsaw[i].lng),
@@ -379,11 +372,5 @@ function clearMarkers() {
     });
 }
 });
-function clearMarkers() {
-    for (let i = 0; i < markers.length; i++) {
-        markers[i].setMap(null);
-    }
-    markers = [];
-}
 
 }
