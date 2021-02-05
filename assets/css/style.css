@@ -29,7 +29,7 @@
      }
     }
 
-h1 {
+h1, p {
     font-family: 'Tangerine';
     font-size: 34px;
     text-align: center;
