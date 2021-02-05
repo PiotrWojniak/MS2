@@ -23,6 +23,11 @@
     color: rgb(232, 29, 29);
 }
 
+.btn,
+.center-form{
+    font-family: 'BadoniModa';
+}
+
 @media (min-width: 540px){
     .container {
         max-width: 1200px
